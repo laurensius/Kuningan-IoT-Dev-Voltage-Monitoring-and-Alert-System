@@ -18,6 +18,10 @@ class Application extends CI_Controller {
     public function monitoring(){
         $this->load->view('monitoring');
     }
+    
+    public function reporting(){
+        $this->load->view('reporting');
+    }
 }
 
 /*
